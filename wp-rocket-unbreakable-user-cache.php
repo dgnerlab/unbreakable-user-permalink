@@ -1,12 +1,14 @@
 <?php
+/**
+ * Plugin Name: Unbreakable User Cache
+ * Plugin URI: https://github.com/dgnerlab
+ * Description: Unbreakable User Cache 💪🏻 is a snippet to better handle 'User Cache - WP Rocket' using Query string.
+ * Version: 1.0
+ * Author: dgner
+ * Author URI: https://github.com/dgnerlab
+ * License: GPL3
+ */
 
-/* * * * *
-
-
-
-* * * * */
-
-/* WP Rocket - init */
 add_action( 'init', 'dgner_online' );
 add_filter( 'home_url', 'dgner_online' );
 add_filter( 'page_link', 'dgner_online' );
@@ -38,3 +40,4 @@ function dgner_offline() {
         exit;
     }
 }
+?>

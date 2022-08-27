@@ -3,7 +3,7 @@
 This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rocket</a>. However, any plugin that can cache query strings can do the same.
 
 
-# Contents
+# 🎯 Contents
 1.
 2.
 3.

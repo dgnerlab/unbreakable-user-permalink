@@ -19,9 +19,10 @@ This simple snippet has only three features.
 Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example</a>...
 
 # ✨ For example
-The problem with the page cache is that it is difficult to differentiate between logged in and non-logged in users. Because they share the same Permalink, it's hard to physically break them into separate pages.
+The problem with the page cache is that it is difficult to differentiate between logged in and non-logged in users. Because they share the same Permalink, it's hard to physically break them into separate pages. Therefore, the Unbreakable User Cache can be divided into separate pages by appending the '/login=yes' query string to the logged-in user's Permalink.
 
-Therefore, the Unbreakable User Cache can be divided into separate pages by appending the '/login=yes' query string to the logged-in user's Permalink.
+Here are the benefits:
+1. awdwawdawd
 
 ```
 dadad

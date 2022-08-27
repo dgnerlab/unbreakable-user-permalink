@@ -4,7 +4,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 
 
 # 🎯 Contents
-1. <a href="#-what-is-it">What is it</a>
+1. <a href="#-what-is-this">What is this?</a>
 2. <a href="#-what-is-it">For example
 3.
 4.

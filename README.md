@@ -3,7 +3,7 @@
 
 
 
-# Table of Contents
+# Contents
 1.
 2.
 3.

@@ -5,19 +5,19 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 <br />
 
 # Contents
-1.<a href="#what-is-it">What is it?</a>
-2.<a href="#-for-example">For example</a>
-3.
-4.
-5.
+1. <a href="#what-is-it">What is it?</a>
+2. <a href="#-for-example">For example</a>
+3. dd
+4. dd
+5. dd
 
 <br />
 
 # What is it?
 This simple snippet has only three features.
-1) The Query String '/?login=yes' is added to the login user's Permalink.
-2) When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
-3) Use WordPress' 'init' and 'template_redirect' functions appropriately to avoid overlapping caches.
+1. The Query String '/?login=yes' is added to the login user's Permalink.
+2. When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
+3. Use WordPress' 'init' and 'template_redirect' functions appropriately to avoid overlapping caches.
 
 Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example</a>...
 

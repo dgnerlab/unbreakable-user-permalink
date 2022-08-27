@@ -24,11 +24,7 @@ Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-exam
 <br />
 
 # ✨ For example
-The problem with the page cache is that it is difficult to differentiate between logged in and non-logged in users.
-
-Because they share the same Permalink, it's hard to physically break them into separate pages. There is a way to utilize cookies, but the method is not simple.
-
-Therefore, the Unbreakable User Cache can be divided into separate pages by appending the '/login=yes' query string to the logged-in user's Permalink. Here are the benefits:
+The problem with the page cache is that it is difficult to differentiate between logged in and non-logged in users. Because they share the same Permalink, it's hard to physically break them into separate pages. There is a way to utilize cookies, but the method is not simple. Therefore, the Unbreakable User Cache can be divided into separate pages by appending the '/login=yes' query string to the logged-in user's Permalink. Here are the benefits:
 1. awdwawdawdh
 
 

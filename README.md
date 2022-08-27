@@ -3,7 +3,7 @@
 This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rocket</a>. But, any plugin that can cache query string can do the same.
 <br />
 <br />
-<br />
+
 # Contents
 1. <a href="#what-is-it">What is this?</a>
 2. <a href="#-for-example">For example</a>
@@ -12,7 +12,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 5.
 <br />
 <br />
-<br />
+
 # What is it?
 This simple snippet has only three features.
 1. The Query String '/?login=yes' is added to the login user's Permalink.
@@ -22,7 +22,7 @@ This simple snippet has only three features.
 Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example</a>...
 <br />
 <br />
-<br />
+
 # ✨ For example
 The problem with the page cache is that it is difficult to differentiate between logged in and non-logged in users. Because they share the same Permalink, it's hard to physically break them into separate pages. Therefore, the Unbreakable User Cache can be divided into separate pages by appending the '/login=yes' query string to the logged-in user's Permalink.
 

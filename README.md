@@ -5,11 +5,11 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 <br />
 
 # Contents
-1. <a href="#what-is-it">What is it?</a>
-2. <a href="#-for-example">For example</a>
-3.
-4.
-5.
+<a href="#what-is-it">What is it?</a>
+<a href="#-for-example">For example</a>
+
+
+
 
 <br />
 

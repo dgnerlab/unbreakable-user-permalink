@@ -5,7 +5,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 <br />
 
 # Contents
-<a href="#what-is-it">What is it?</a>
+<a href="#what-is-it">What is it?</a><br />
 <a href="#-for-example">For example</a>
 
 

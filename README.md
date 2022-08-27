@@ -18,7 +18,7 @@ This simple snippet has only three features.
 * When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
 * Use WordPress' 'init' and 'template_redirect' functions appropriately to avoid overlapping caches.
 
-Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example</a>...
+Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example...</a>
 
 <br />
 
@@ -27,7 +27,7 @@ The problem with the page cache is that it is difficult to differentiate between
 
 Here are the benefits:
 * Separate pages for logged in users and non-logged users. Therefore, the cache file is created separately.
-* User cache can be preloaded using 'Common cache for logged in users' and 'No cache for admin'. <a href="">Learn more ↓</a>
+* User cache can be preloaded using 'Common cache for logged in users' and 'No cache for admin'. <a href="">Learn more →</a>
 
 
 

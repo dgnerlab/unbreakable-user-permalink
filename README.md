@@ -11,7 +11,6 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 4.
 5.
 <br />
-<br />
 
 # What is it?
 This simple snippet has only three features.

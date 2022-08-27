@@ -16,7 +16,7 @@ This simple snippet has only three functions.
 2. When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
 3. Use WordPress' 'init' and 'template_redirect' features appropriately to avoid overlapping caches.
 
-Sorry, that's all! 😂 But it can do some pretty fun stuff. For example...
+Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example</a>...
 
 # ✨ For example
 

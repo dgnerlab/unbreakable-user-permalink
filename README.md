@@ -9,7 +9,6 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 2. <a href="#-for-example">For example</a>
 3. dd
 4. dd
-5. dd
 
 <br />
 
@@ -27,7 +26,8 @@ Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-exam
 The problem with the page cache is that it is difficult to differentiate between logged in and non-logged in users. Because they share the same Permalink, it's hard to physically break them into separate pages. There is a way to utilize cookies, but the method is not simple. Therefore, the Unbreakable User Cache can be divided into separate pages by appending the '/login=yes' query string to the logged-in user's Permalink.
 
 Here are the benefits:
-* Separate pages for logged in users and non-logged users. Therefore, the cache file is created separately. <mark> The plugin must support this feature. </mark>
+* Separate pages for logged in users and non-logged users. Therefore, the cache file is created separately.
+* User cache can be preloaded using 'Common cache for logged in users' and 'No cache for admin'. <a href="">Learn more ↓</a>
 
 
 
@@ -35,3 +35,4 @@ Here are the benefits:
 ```
 dadad
 ```
+Special thanks to @x who

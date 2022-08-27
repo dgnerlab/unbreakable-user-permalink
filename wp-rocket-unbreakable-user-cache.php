@@ -14,12 +14,12 @@ add_filter( 'home_url', 'dgner_online' );
 add_filter( 'page_link', 'dgner_online' );
 add_filter( 'post_link', 'dgner_online' );
 add_filter( 'post_type_link', 'dgner_online' );
-// add_filter( 'category_link', 'dgner_online' ); // ┓ = Add if necessary.
-// add_filter( 'tag_link', 'dgner_online' );      // ┃
-// add_filter( 'author_link', 'dgner_online' );   // ┃
-// add_filter( 'day_link', 'dgner_online' );      // ┃
-// add_filter( 'month_link', 'dgner_online' );    // ┃
-// add_filter( 'year_link', 'dgner_online' );     // ┛
+// add_filter( 'category_link', 'dgner_online' );   //┓ = Add if necessary.
+// add_filter( 'tag_link', 'dgner_online' );        //┃
+// add_filter( 'author_link', 'dgner_online' );     //┃
+// add_filter( 'day_link', 'dgner_online' );        //┃
+// add_filter( 'month_link', 'dgner_online' );      //┃
+// add_filter( 'year_link', 'dgner_online' );       //┛
 add_action( 'template_redirect', 'dgner_offline' );
 
 function dgner_online( $permalink ) {

@@ -14,7 +14,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 <br />
 
 # What is it?
-> This simple snippet has only three features.
+This simple snippet has only three features.
 1. The Query String '/?login=yes' is added to the login user's Permalink.
 2. When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
 3. Use WordPress' 'init' and 'template_redirect' functions appropriately to avoid overlapping caches.

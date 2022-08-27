@@ -4,8 +4,8 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 
 
 # 🎯 Contents
-1. What is it
-2. For example
+1. <a href="#-what-is-it">What is it</a>
+2. <a href="#-what-is-it">For example
 3.
 4.
 5.
@@ -18,7 +18,7 @@ This simple snippet has only three functions.
 
 Sorry, that's all! 😂 But it can do some pretty fun stuff. For example...
 
-#
+# For example
 
 ```
 dadad

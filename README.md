@@ -3,14 +3,14 @@
 This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rocket</a>. But, any plugin that can cache query string can do the same.
 
 
-# 🎯 Contents
+# Contents
 1. <a href="#-what-is-it">What is this?</a>
 2. <a href="#-what-is-it">For example
 3.
 4.
 5.
 
-# 🐐 What is it?
+# What is it?
 This simple snippet has only three functions.
 1. The Query String '/?login=yes' is added to the login user's Permalink.
 2. When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.

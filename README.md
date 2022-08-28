@@ -53,6 +53,10 @@ No Cache for Admin literally prevents admins from accessing Cache pages. This is
 
 Try it together! However, preloading directly from within WP Rocket is not possible. A non-administrator user must log in and then directly visit the page to create a Cache file. So keep this condition in mind when testing.
 
+<br />
+
+# How to use
+awdawdwadwad
 
 ```
 dadad

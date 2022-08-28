@@ -9,7 +9,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 2. <a href="#-for-example">For example</a>
 3. <a href="#learn-more">Learn more</a>
 4. How to use
-5. dawd
+5. Questions?
 
 <br />
 

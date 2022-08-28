@@ -40,7 +40,7 @@ Here are the benefits:
 # Learn more
 For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, if you use the two plugins(Author: WP Rocket Support Team) below with Unbreakable User Permalink, you can also preload the cache of the logged in user.
 
-> Caution! It is only recommended for professionals who can directly view the generated page Cache file.
+> Caution! It is only recommended for professionals who can directly verify and test the generated page Cache file.
 
 * <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a>
 * <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>

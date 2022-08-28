@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Unbreakable User Cache
+ * Plugin Name: Unbreakable User Permalink
  * Plugin URI: https://github.com/dgnerlab
- * Description: Unbreakable User Cache 💪🏻 is a snippet to better handle 'User Cache - WP Rocket' using Query string.
+ * Description: Unbreakable User Permalink 💪🏻 is a snippet to better handle 'User Cache - WP Rocket' using Query string.
  * Version: 1.0
  * Author: dgner
  * Author URI: https://github.com/dgnerlab

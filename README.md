@@ -38,7 +38,7 @@ Here are the benefits:
 <br />
 
 # 📖 Learn more
-For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, with two additional addons provided by WP Rocket, it is possible to preload the logged-in user's Cache.
+For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, with two additional addons provided by WP Rocket, it is possible to preload the logged in user's Cache.
 
 > Caution! It is only recommended for professionals who can directly verify and test the generated page Cache file.
 

@@ -29,7 +29,7 @@ The problem with the page Cache is that it is difficult to differentiate between
 Cache plugin must support Query string page Cache.
 Here are the benefits:
 * Separate pages for logged in users and non-logged users. Therefore, the Cache file is created separately.
-* This solves the Cache nesting issue where logged in users see Cache pages for non-logged in users.
+* This solves the duplicate Cache issue where logged in users see Cache pages for non-logged in users.
 * Cache files of logged in users are well preserved. Avoid unnecessary creation and save server resources.
 * This snippet only affects frontend pages. Important files such as robots.txt sitemap.xml are not affected.
 * When using network services like Cloudflare, you can specify page rules for logged in users. (Do without Cookie)
@@ -47,7 +47,7 @@ For logged in users, preloading is almost impossible because cached pages are di
 
 Common Cache for Logged in Users literally creates only one cache file for the logged in user. So, if someone saves a cache file even once, preloading is realized because other users can equally use that cache file. However, if user A's profile image is stored on a cached page, it may be displayed incorrectly to user B. Therefore, pages with profile images should be excluded from the Cache list. Or, you must have the expertise to only objectify your profile image.
 
-Common Cache for Logged in Users can be used independently, but permalink remains the same. This can lead to cache nesting issues where logged in users can see Cache pages for non-logged in users. So <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> can properly compensate for this problem.
+Common Cache for Logged in Users can be used independently, but permalink remains the same. This can lead to duplicate Cache issues where logged in users can view Cache pages for non-logged in users. So <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> can properly compensate for this problem.
 
 ```
 dadad

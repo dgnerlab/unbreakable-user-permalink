@@ -58,6 +58,8 @@ Try it together! However, preloading directly from within WP Rocket is not possi
 # 🕹 How to use
 awdawdwadwad
 
+![대체 텍스트](.how-to-use.jpg)
+
 ```
 dadad
 ```

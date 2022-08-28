@@ -38,7 +38,7 @@ Here are the benefits:
 <br />
 
 # 📖 Learn more
-For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, using the two plugins below (Author: WP Rocket Support Team) with Unbreakable User Permalink also allows you to preload Cache for logged in users.
+For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, two additional add-ons provided by WP Rocket allow you to preload the logged in user's Cache.
 
 > Caution! It is only recommended for professionals who can directly verify and test the generated page Cache file.
 

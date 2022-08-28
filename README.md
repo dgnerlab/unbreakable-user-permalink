@@ -65,9 +65,7 @@ If the Permalink format is 'https://thisistheway/something?login=yes', the page 
 ```
 return add_query_arg( 'login', 'yes', $permalink );
 ```
-Removed <a href="https://developer.wordpress.org/reference/functions/trailingslashit/">trailingslashit()</a>. This appends a trailing slash. Will remove trailing forward and backslashes if it exists already before adding a trailing forward slash.
-
-Now it's all over. <a href="#-behind">Behind →</a>
+Removed <a href="https://developer.wordpress.org/reference/functions/trailingslashit/">trailingslashit()</a>. This appends a trailing slash. Will remove trailing forward and backslashes if it exists already before adding a trailing forward slash. Now it's all over. <a href="#-behind">Behind →</a>
 
 <br />
 

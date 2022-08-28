@@ -63,7 +63,7 @@ Either install the snippet or copy the contents to functions.php in your theme f
 If the Permalink format is 'https://thisistheway/something?login=yes', the page is accessed normally, but redirects happen along the way. So the snippet needs to be slightly modified.
 
 ```
-dadad
+return add_query_arg( 'login', 'yes', $permalink );
 ```
 <a href="#-behind">Behind →</a>
 

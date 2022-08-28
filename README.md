@@ -58,7 +58,7 @@ Try it together! However, preloading directly from within WP Rocket is not possi
 # 🕹 How to use
 ![How to use](./image/how-to-use.jpg)
 
-Either install the snippet or copy the contents to functions.php in your theme folder, and then make the plugin cache the '?login=yes' query string.
+Either install the snippet or copy the contents to functions.php in your theme folder, and then make the plugin cache the '?login=yes' query string. Just type in 'ogin'.
 
 ```
 dadad

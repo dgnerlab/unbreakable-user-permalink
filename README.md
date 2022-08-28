@@ -47,7 +47,7 @@ For logged in users, preloading is almost impossible because cached pages are di
 
 Common Cache for Logged in Users literally creates only one cache file for the logged in user. So, if someone saves a cache file even once, preloading is realized because other users can equally use that cache file. However, if user A's profile image is stored on a cached page, it may be displayed incorrectly to user B. Therefore, pages with profile images should be excluded from the Cache list. Or, you must have the expertise to only objectify your profile image.
 
-Common Cache for Logged in Users can be used independently, but permalink remains the same. This can lead to duplicate Cache issues where logged in users can view Cache pages for non-logged in users. So <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> can properly compensate for this problem.
+Common Cache for Logged in Users can be used independently, but Permalink remains the same. This can lead to duplicate Cache issues where logged in users can view Cache pages for non-logged in users. So <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> can properly compensate for this problem.
 
 No Cache for Admin literally prevents admins from accessing Cache pages. This is very important from a security point of view when using a Common Cache for Logged in Users. This is because if done incorrectly, the administrator's screen may be exposed to other users. Therefore, it should be used without exception.
 
@@ -58,9 +58,9 @@ Try it together! However, preloading directly from within WP Rocket is not possi
 # 🕹 How to use
 ![How to use](./image/how-to-use.jpg)
 
-Either install the snippet or copy the contents to functions.php in your theme folder, and then make the plugin cache the '?login=yes' query string. Just type in 'login'. The login user's permalink should be displayed in the following format: https://thisistheway/something/?login=Yes
+Either install the snippet or copy the contents to functions.php in your theme folder, and then make the plugin cache the '?login=yes' query string. Just type in 'login'. The login user's Permalink should be displayed in the following format: https://thisistheway/something/?login=Yes
 
-If the permalink format is 'https://thisistheway/something?login=yes', the page is accessed normally, but redirects happen along the way. So the snippet needs to be slightly modified.
+If the Permalink format is 'https://thisistheway/something?login=yes', the page is accessed normally, but redirects happen along the way. So the snippet needs to be slightly modified.
 
 ```
 dadad

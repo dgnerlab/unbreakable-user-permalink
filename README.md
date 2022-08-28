@@ -32,7 +32,8 @@ Cache plugin must support Query string page Cache.
 Here are the benefits:
 * Separate pages for logged in users and non-logged users. Therefore, the Cache file is created separately.
 * This solves the Cache nesting issue where logged in users see Cache pages for non-logged-in users.
-* When using network services like Cloudflare, you can specify page rules for logged in users. (without Cookie)
+* Cache files of logged in users are well preserved. Avoid unnecessary creation and save server resources.
+* When using network services like Cloudflare, you can specify page rules for logged in users. (Do without Cookie)
 * User Cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>. As a result, the page loading speed is also faster for logged-in users. <a href="#learn-more">Learn more →</a>
 
 <br />

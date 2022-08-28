@@ -60,7 +60,7 @@ Try it together! However, preloading directly from within WP Rocket is not possi
 
 Either install the snippet or copy the contents to functions.php in your theme folder, and then make the plugin cache the '?login=yes' query string. Just type in 'login'. The login user's Permalink should be displayed in the following format: https://thisistheway/something/?login=Yes
 
-If the Permalink format is 'https://thisistheway/something?login=yes', the page is accessed normally, but redirects happen along the way. So the snippet needs to be slightly modified.
+If the Permalink format is 'https://thisistheway/something?login=yes', the page is accessed normally, but redirects happen along the way. So the snippet needs to be slightly modified. (line 27)
 
 ```
 return add_query_arg( 'login', 'yes', $permalink );

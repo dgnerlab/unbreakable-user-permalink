@@ -19,7 +19,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 This simple snippet has only three features.
 * The Query string '/?login=yes' is added to the login user's Permalink.
 * When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
-* To avoid duplication, WordPress 'init' and 'template_redirect' functions have been used appropriately.
+* To avoid nesting, WordPress 'init' and 'template_redirect' functions have been used appropriately.
 
 Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example →</a>
 

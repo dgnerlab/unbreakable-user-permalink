@@ -51,7 +51,7 @@ Common Cache for Logged in Users can be used independently, but permalink remain
 
 No Cache for Admin literally prevents admins from accessing Cache pages. This is very important from a security point of view when using a Common Cache for Logged in Users. This is because if done incorrectly, the administrator's screen may be exposed to other users. Therefore, it should be used without exception.
 
-Try it together! However, preloading directly from within WP Rocket is not possible. A non-administrator user must log in and then directly visit the page to create a Cache file. So keep this condition in mind when testing.
+Try it together! However, preloading directly from within WP Rocket is not possible. A non-administrator user must log in and then directly visit the page to create a Cache file. So keep this condition in mind when testing. Check <a href="#-how-to-use">How to use →</a>
 
 <br />
 
@@ -61,5 +61,9 @@ awdawdwadwad
 ```
 dadad
 ```
+<a href="#-behind">Behind →</a>
+
+<br />
+
 # 🐐 Behind
 A simple snippet that would be embarrassing to even call it a plugin is purely for me. But I'm sharing it in case anyone wants a similar feature. Special thanks to <a href="https://rading.kr/">@rading</a> for advice on the order of WordPress functions.

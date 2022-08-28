@@ -1,6 +1,6 @@
 # Unbreakable User Permalink (for User Cache)
 <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> 💪🏻 is a snippet to better handle <a href="https://docs.wp-rocket.me/article/313-user-cache">'User Cache - WP Rocket'</a> using <a href="https://developer.wordpress.org/reference/functions/add_query_arg/">Query string</a>.
-This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rocket</a>. This is not an official plugin. But, any plugin that can Cache query string can do the same.
+This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rocket</a>. This is not an official plugin. Also, any plugin that can Cache query string can do the same.
 
 <br />
 

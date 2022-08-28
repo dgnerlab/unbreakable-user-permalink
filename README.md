@@ -32,7 +32,7 @@ Here are the benefits:
 * This solves the duplicate Cache issue where logged in users see Cache pages for non-logged in users.
 * Cache files of logged in users are well preserved. Avoid unnecessary creation and save server resources.
 * This snippet only affects frontend pages. Important files such as robots.txt & sitemap.xml are not affected.
-* When using network services like Cloudflare, you can specify page rules for logged in users. (Do without Cookie)
+* Specifying page rules for logged in users when using network services like Cloudflare. (Do without cookies)
 * User Cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>. As a result, the page loading speed is also faster for logged in users. <a href="#-learn-more">Learn more →</a>
 
 <br />

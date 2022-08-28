@@ -45,7 +45,7 @@ For logged in users, preloading is almost impossible because cached pages are di
 * <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a>
 * <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>
 
-Common Cache for Logged in Users literally creates only one cache file for the logged in user. So, if someone saves a cache file even once, preloading is realized because other users can equally use that cache file. However, if user A's profile image is stored on a cached page, it may be displayed incorrectly to user B. Therefore, pages with profile images should be excluded from the Cache list. Or, you must have the expertise to only objectify your profile image.
+Common Cache for Logged in Users literally creates only one cache file for the logged in user. So, if someone saves a cache file even once, preloading is realized because other users can equally use that cache file. However, if user A's profile image is stored on a cached page, it may be displayed incorrectly to user B. Therefore, pages with profile images should be excluded from the Cache list. Alternatively, you must have the expertise to only exclude profile images from the Cache.
 
 Common Cache for Logged in Users can be used independently, but Permalink remains the same. This can lead to duplicate Cache issues where logged in users can view Cache pages for non-logged in users. So <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> can properly compensate for this problem.
 

@@ -7,9 +7,9 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 # Contents
 1. <a href="#-what-is-it">What is it?</a>
 2. <a href="#-for-example">For example</a>
-3. <a href="#learn-more">Learn more</a>
-4. How to use
-5. Behind
+3. <a href="#-learn-more">Learn more</a>
+4. <a href="#-how-to-use">How to use</a>
+5. <a href="#-behind">Behind</a>
 
 <br />
 
@@ -33,11 +33,11 @@ Here are the benefits:
 * Cache files of logged in users are well preserved. Avoid unnecessary creation and save server resources.
 * This snippet only affects frontend pages. Important files such as robots.txt sitemap.xml are not affected.
 * When using network services like Cloudflare, you can specify page rules for logged in users. (Do without Cookie)
-* User Cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>. As a result, the page loading speed is also faster for logged in users. <a href="#learn-more">Learn more →</a>
+* User Cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>. As a result, the page loading speed is also faster for logged in users. <a href="#-learn-more">Learn more →</a>
 
 <br />
 
-# Learn more
+# 📖 Learn more
 For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, if you use the two plugins(Author: WP Rocket Support Team) below with Unbreakable User Permalink, you can also preload the cache of the logged in user.
 
 > Caution! It is only recommended for professionals who can directly verify and test the generated page Cache file.
@@ -55,7 +55,7 @@ Try it together! However, preloading directly from within WP Rocket is not possi
 
 <br />
 
-# How to use
+# 🕹 How to use
 awdawdwadwad
 
 ```

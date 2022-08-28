@@ -27,7 +27,7 @@ The problem with the page cache is that it is difficult to differentiate between
 
 Here are the benefits:
 * Separate pages for logged in users and non-logged users. Therefore, the cache file is created separately.
-* User cache can be preloaded using 'Common cache for logged in users' and 'No cache for admin'. As a result, the page loading speed is also faster for logged-in users. <a href="">Learn more →</a>
+* User cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common cache for logged in users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No cache for admin</a>. As a result, the page loading speed is also faster for logged-in users. <a href="">Learn more →</a>
 
 
 

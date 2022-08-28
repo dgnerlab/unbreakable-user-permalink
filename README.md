@@ -20,6 +20,7 @@ This simple snippet has only three features.
 * The Query string '/?login=yes' is added to the login user's Permalink.
 * When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
 * To avoid nesting, WordPress 'init' and 'template_redirect' functions have been used appropriately.
+* This snippet only affects frontend pages. Important files such as robots.txt sitemap.xml are not affected.
 
 Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example →</a>
 

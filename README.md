@@ -40,7 +40,7 @@ Here are the benefits:
 # Learn more
 For logged in users, preloading is almost impossible because cached pages are difficult to preserve. However, if you use the two plugins below with Unbreakable User Permalink, you can also preload the cache of the logged in user.
 
-> Caution! It is only recommended for professionals who can directly view the generated page Cache file. Developer has no take responsibility for management. This plugin user has responsibility for all problems.
+> Caution! It is only recommended for professionals who can directly view the generated page Cache file.
 
 ```
 dadad

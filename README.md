@@ -47,7 +47,7 @@ For logged in users, preloading is almost impossible because cached pages are di
 
 Common Cache for Logged in Users literally creates only one cache file for the logged in user. So, if someone saves a cache file even once, preloading is realized because other users can equally use that cache file. However, if user A's profile image is stored on a cached page, it may be displayed incorrectly to user B. Therefore, pages with profile images should be excluded from the Cache list. Or, you must have the expertise to only objectify your profile image.
 
-Common Cache for Logged in Users can be used independently, but cache files are often entangled because the Permalinks of logged-in and non-logged users overlap.
+Common Cache for Logged in Users can be used independently, but permalink remains the same. This can lead to cache nesting issues where logged in users can see Cache pages for non-logged in users.
 
 ```
 dadad

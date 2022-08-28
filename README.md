@@ -1,5 +1,5 @@
 # Unbreakable User Cache
-<a href="https://github.com/dgnerlab/wp-rocket-unbreakable-user-cache">Unbreakable User Cache</a> 💪🏻 is a snippet to better handle <a href="https://docs.wp-rocket.me/article/313-user-cache">'User Cache - WP Rocket'</a> using <a href="https://developer.wordpress.org/reference/functions/add_query_arg/">query string</a>.
+<a href="https://github.com/dgnerlab/wp-rocket-unbreakable-user-cache">Unbreakable User Cache</a> 💪🏻 is a snippet to better handle <a href="https://docs.wp-rocket.me/article/313-user-cache">'User Cache - WP Rocket'</a> using <a href="https://developer.wordpress.org/reference/functions/add_query_arg/">Query string</a>.
 This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rocket</a>. But, any plugin that can cache query string can do the same.
 
 <br />
@@ -15,7 +15,7 @@ This simple snippet was made by a fan of <a href="https://wp-rocket.me/">WP Rock
 
 # What is it?
 This simple snippet has only three features.
-* The Query String '/?login=yes' is added to the login user's Permalink.
+* The Query string '/?login=yes' is added to the login user's Permalink.
 * When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
 * Use WordPress' 'init' and 'template_redirect' functions appropriately to avoid overlapping 
 s.

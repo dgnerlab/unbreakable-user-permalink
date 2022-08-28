@@ -49,7 +49,7 @@ Common Cache for Logged in Users literally creates only one cache file for the l
 
 Common Cache for Logged in Users can be used independently, but permalink remains the same. This can lead to duplicate Cache issues where logged in users can view Cache pages for non-logged in users. So <a href="https://github.com/dgnerlab/unbreakable-user-permalink">Unbreakable User Permalink</a> can properly compensate for this problem.
 
-No Cache for Admin literally prevents admins from accessing Cache pages. This is very important from a security point of view when using a Common Cache for Logged in Users.
+No Cache for Admin literally prevents admins from accessing Cache pages. This is very important from a security point of view when using a Common Cache for Logged in Users. This is because if done incorrectly, the administrator's screen may be exposed to other users. Therefore, it should be used without exception.
 
 ```
 dadad

@@ -9,7 +9,7 @@ This is not an official plugin. A malfunctioning Page Cache can cause serious se
 # Contents
 1. <a href="#what-is-it">What is it?</a>
 2. <a href="#-for-example">For example</a>
-3. Learn more
+3. <a href="#learn-more">Learn more</a>
 4. How to use
 5. dawd
 
@@ -21,7 +21,7 @@ This simple snippet has only three features.
 * When non-login users access the '/?login=yes' path, they are forcibly redirected to the homepage.
 * To avoid duplication, WordPress 'init' and 'template_redirect' functions have been used appropriately.
 
-Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example...</a>
+Sorry, that's all! 😂 But it can do some pretty fun stuff. <a href="#-for-example">For example →</a>
 
 <br />
 
@@ -30,8 +30,11 @@ The problem with the Page Cache is that it is difficult to differentiate between
 
 Here are the benefits:
 * Separate pages for logged in users and non-logged users. Therefore, the Cache file is created separately.
-* User Cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>. As a result, the page loading speed is also faster for logged-in users. <a href="">Learn more →</a>
+* User Cache can be preloaded using <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-cache-common-cache-loggedin">Common Cache for Logged in Users</a> and <a href="https://github.com/wp-media/wp-rocket-helpers/tree/master/cache/wp-rocket-no-cache-for-admins">No Cache for Admin</a>. As a result, the page loading speed is also faster for logged-in users. <a href="#learn-more">Learn more →</a>
 
+<br />
+
+# Learn more
 
 
 

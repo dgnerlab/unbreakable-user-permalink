@@ -39,5 +39,9 @@ function dgner_offline() {
         wp_safe_redirect( home_url(), 301 );
         exit;
     }
+    else if ( is_user_logged_in() && is_page() && $online === false  ) {
+        wp_safe_redirect( add_query_arg( 'login', 'yes', home_url() ), 301 );
+        exit;
+    }
 }
 ?>

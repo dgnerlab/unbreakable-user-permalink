@@ -24,7 +24,7 @@ add_action( 'template_redirect', 'dgner_offline' );
 
 function dgner_online( $permalink ) {
     if( is_user_logged_in() && is_page() ) {
-        return add_query_arg( 'login', 'yes', trailingslashit( $permalink ) ); // trailingslashit() = Appends a trailing slash. Will remove trailing forward and backslashes if it exists already before adding a trailing forward slash.
+        return add_query_arg( 'login', 'yes', trailingslashit( $permalink ) );
     }
     else {
         return $permalink;
@@ -32,16 +32,16 @@ function dgner_online( $permalink ) {
 }
 
 function dgner_offline() {
-    $entities = htmlentities( $_SERVER['REQUEST_URI'] );
-    $loginyes = '/?login=yes';
-    $online = strpos( $entities, $loginyes );
-    if( ! is_user_logged_in() && is_page() && $online !== false ) {
-        wp_safe_redirect( home_url(), 301 );
-        exit;
-    }
-    else if ( is_user_logged_in() && is_page() && $online === false  ) {
-        wp_safe_redirect( add_query_arg( 'login', 'yes', home_url() ), 301 );
-        exit;
-    }
+	$entities = esc_url( $_SERVER['REQUEST_URI'] );
+	$loginyes = '/?login=yes';
+	$online = strpos( $entities, $loginyes );
+	if( ! is_user_logged_in() && is_page() && $online !== false ) {
+		wp_safe_redirect( trailingslashit( get_permalink() ), 302 );
+		exit;
+	}
+	else if ( is_user_logged_in() && is_page() && $online === false  ) {
+		wp_safe_redirect( add_query_arg( 'login', 'yes', trailingslashit( get_permalink() ) ), 302 );
+		exit;
+	}
 }
 ?>
